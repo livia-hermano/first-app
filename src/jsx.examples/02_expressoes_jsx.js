@@ -48,6 +48,6 @@ const styles = StyleSheet.create({
         padding: 16,
         marginBottom: 16,
         backgroundColor: "#ffff",
-        borderRadius: 8,
+        borderRadius: 8, 
     },
 });
