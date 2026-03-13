@@ -15,6 +15,18 @@ export default function ViewExemplo02() {
             <View style={[styles.box, {flex: 2}]}></View>
             <View style={[styles.box, {flex: 1}]}></View>
         </View>
+        <View style={styles.exemplo}>
+        <Text style={styles.subtitulo}> Flex proporções</Text>
+        <View style={{flexDirection:"row",
+        height: 60,
+        gap: 8,
+        flexWrap: "wrap"
+        }}>
+            <View style={[styles.box, {width: 80}]}></View>
+            <View style={[styles.box, {width: 80}]}></View>
+            <View style={[styles.box, {width: 80}]}></View> 
+            </View>
+            </View>
       </View>
     </View>
   );
