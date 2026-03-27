@@ -1,11 +1,11 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, ViewBase } from 'react-native';
-import ExercicioView09 from './jsx_exercicios_view/ex09';
+import Exercicio21 from './jsx_somativa/ex21';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <ExercicioView09 />
+      <Exercicio21 />
       <StatusBar style="auto" />
     </View>
   );
