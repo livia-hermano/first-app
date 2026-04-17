@@ -1,11 +1,10 @@
 import { View, Text, StyleSheet } from "react-native";
 
-
-export default function CartaoPerfil1({nome, idade}){
+export default function CartaoProduto(props){
   return (
     <View style={styles.card}>
-    <Text style={styles.nome}> Nome: {nome}</Text>
-    <Text style={styles.info}> Idade: {idade}</Text>
+    <Text style={styles.produto}> Produto: {props.produto}</Text>
+    <Text style={styles.preco}> Preço: {props.preco}</Text>
     </View>
 )}
 
@@ -13,19 +12,18 @@ export default function CartaoPerfil1({nome, idade}){
 
 const styles = StyleSheet.create({
   card: {
-    flex: 1,
     backgroundColor: "#f5f5f5",
     borderRadius: 12,
     padding: 16,
     borderWidth: 1,
-    borderColor: "#e5e7eb" 
+    borderColor: "#e5e7eb"
   },
-    nome: {
+    produto: {
     fontSize: 18,
     fontWeight: "bold",
     marginBottom: 4,
   },
-  info:{
+  preco:{
     fontSize: 14,
     color: "#6b7286"
   }

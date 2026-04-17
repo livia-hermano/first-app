@@ -1,12 +1,10 @@
 import { StyleSheet, Text, View, ViewBase } from 'react-native';
-import CartaoPerfil1 from './jsx_props/exemplo1';
+import PerfilAluno from './jsx_props/livia-hermano-exercicios/desafio';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <CartaoPerfil1 nome="Agatha" idade={17}/>
-      <CartaoPerfil1 nome="Manu" idade={17}/>
-      <CartaoPerfil1 nome="Lívia" idade={17}/>
+      <PerfilAluno titulo="Wow" />
     </View>
   );
 
