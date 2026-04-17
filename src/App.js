@@ -1,15 +1,18 @@
-import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, ViewBase } from 'react-native';
-import Exercicio21 from './jsx_somativa/ex21';
+import CartaoPerfil1 from './jsx_props/exemplo1';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Exercicio21 />
-      <StatusBar style="auto" />
+      <CartaoPerfil1 nome="Agatha" idade={17}/>
+      <CartaoPerfil1 nome="Manu" idade={17}/>
+      <CartaoPerfil1 nome="Lívia" idade={17}/>
     </View>
   );
+
 }
+
+
 
 const styles = StyleSheet.create({
   container: {
