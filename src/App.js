@@ -1,10 +1,11 @@
 import { StyleSheet, Text, View, ViewBase } from 'react-native';
-import PerfilAluno from './jsx_props/livia-hermano-exercicios/desafio';
+import Exemplo from './hooks.jsx/useState_exemplo'
+import TelaMoedas from './hooks.jsx/useEffect_exemplo';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <PerfilAluno titulo="Wow" />
+      <TelaMoedas/>
     </View>
   );
 
