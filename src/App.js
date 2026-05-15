@@ -1,11 +1,11 @@
 import { StyleSheet, Text, View, ViewBase } from 'react-native';
 import Exemplo from './hooks.jsx/useState_exemplo'
-import TelaMoedas from './hooks.jsx/useEffect_exemplo';
+import FlatListExemplo from './flatlist.jsx/exemplo2';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <TelaMoedas/>
+      <FlatListExemplo/>
     </View>
   );
 
